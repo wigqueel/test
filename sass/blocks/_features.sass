@@ -1,0 +1,102 @@
+
+.container-features
+    display: flex
+    padding-top: 17vw
+    justify-content: center
+
+
+
+.app-features
+    padding-top: 3vw
+    padding-left: 3%
+    width: 50%
+    
+        
+    &__header
+        height: 73px
+        color: $text-color 
+        font-family: 'Poppins', sans-serif;
+        font-size: 36px
+        font-weight: 400
+        font-style: normal
+        letter-spacing: normal
+        line-height: 46px   
+    &__info
+        width: 428px
+        height: 44px
+        color: #616368
+        font-family: Poppins
+        font-size: 16px
+        font-weight: 400
+        font-style: normal
+        letter-spacing: normal
+        line-height: 26px
+        color: $header-color  
+
+.features
+    padding-top: 3em  
+
+.feature
+    flex-wrap: wrap-reverse
+    &__text
+        padding: 0em 2em
+    &__name
+        color: #f55767
+        font-family: "Poppins - Semi Bold"
+        font-size: 20px
+        line-height: 58px
+        font-weight: 400
+    &__info
+        width: 259px
+        height: 70px
+        color: #616368
+        font-family: Poppins
+        font-size: 16px
+        font-weight: 400
+        line-height: 26px    
+    &__icon
+        height: 88px
+        width: 88px
+        border-radius: 50%
+        display: inline-block
+        img
+            padding: 1em
+            
+    
+    display: flex
+    flex-direction: row
+
+.red-name
+    color: #f55767
+.blue-name
+    color: #2563ff
+.green-name
+    color: #40975f
+.red-back
+    background-color: #ffecef
+.blue-back
+    background-color: #f4f4ff
+.green-back
+    background-color: #e4ffee
+
+
+.phone
+    display: flex
+    width: 50%
+    justify-content: flex-end
+    img
+        height: 83%
+
+    
+@media (max-width: 901px)
+    .phone
+        width: 44%
+        display: none
+    .app-features
+        text-align: center
+        padding-left: 9%
+    .container-features
+        padding-bottom: 5em
+        justify-content: center
+        align-items: center
+        flex-direction: column-reverse
